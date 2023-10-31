@@ -15,7 +15,7 @@
 syntax = "proto3";
 package OpenIMServer.sdkws;
 import "wrapperspb/wrapperspb.proto";
-option go_package = "github.com/OpenIMSDK/protocol/sdkws";
+option go_package = "github.com/Bit-Engine-Singapore/protocol/sdkws";
 
 ////////////////////////////////base///////////////////////////////
 
@@ -82,6 +82,8 @@ message UserInfo{
   int64 createTime = 5;
   int32 appMangerLevel = 6;
   int32 globalRecvMsgOpt = 7;
+  string userType = 8;
+  string language = 9;
 }
 
 message FriendInfo{
