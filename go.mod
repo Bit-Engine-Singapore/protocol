@@ -1,4 +1,4 @@
-module github.com/OpenIMSDK/protocol
+module github.com/Bit-Engine-Singapore/protocol
 
 go 1.18
 
